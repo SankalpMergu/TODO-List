@@ -1,0 +1,98 @@
+.wrap{
+	top: 50%;
+	left: 50%;
+	background: white;
+    margin: 120px auto;
+    max-width: 600px;
+    width: 100%;
+    border-radius:5px;
+    padding: 25px;
+}
+.wrap:hover{
+  box-shadow: 0px 0px 5px 5px lightblue;
+}
+.wrap h2{
+	font-weight: 30px;
+	font-size: 30px;
+	text-align: center;
+} 
+.inputfield{
+display: flex;
+margin: 10px;
+align-items: center;
+}
+.inputfield #listfield {
+	height: 45px;
+	width: 100%;
+	border: 1px solid ;
+	font-size: 17px;
+	border-radius: 3px;
+	padding-left: 15px;
+	outline: none;
+	position: relative;
+}
+.inputfield #datefield{
+	position: absolute;
+    margin-left: 330px;
+    outline: none;
+    height: 25px;
+    width: 140px;
+    max-width: 100%;
+
+}
+.inputfield button{
+ height: 45px;
+ width: 48px;
+ background-color: purple;
+ border-radius: 50px;
+ margin-left: 10px;
+ outline: none;
+ color: white;
+
+}
+ 
+ul{
+	list-style: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  /*border: 1px solid #ddd;*/
+}
+thead {
+	text-align: left;
+  padding: 16px;
+}
+ tr {
+  text-align: left;
+  padding: 16px;
+
+  transition: transform .2s;
+}
+tr:hover{
+	transform: scale(1.1);
+}
+
+/*tr:nth-child(even) {
+  background-color: #f2f2f2;
+}*/
+.btn-secondary {
+    color: #fff;
+    background-color: #b23cfd;
+    margin-top: 10px;
+    margin-left: 40%;
+}
+ .rowid{
+	opacity: 0.7;
+	text-decoration: line-through;
+	transition:.3s;
+}
+ .fa-check-circle{
+ 	color: green;
+ 	font-size: 22px;
+ 	 }
+.fa-trash{
+	color: Red;
+	font-size: 22px;
+}
